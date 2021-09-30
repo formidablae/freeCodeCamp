@@ -1,0 +1,36 @@
+body {
+    background: #eee;
+    font-family: Helvetica;
+    margin: auto;
+    max-width: 550pt;
+    display: block;
+    text-align: center;
+}
+
+#title {
+    font-weight: lighter;
+}
+
+#description {
+    background: white;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#main {
+    text-align: center;
+    background: white;
+}
+
+#survey-div {
+    text-align: center;
+    margin: 0 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#survey-form {
+    text-align: left;
+}

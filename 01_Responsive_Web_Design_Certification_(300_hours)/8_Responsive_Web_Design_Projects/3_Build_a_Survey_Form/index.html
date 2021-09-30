@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Data Gathering</title>
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    </head>
+    <body>
+        <div id="header">
+            <h1 id="title">Data Gathering</h1>
+            <p id="description">Data gathering form</p>
+        </div>
+        <div id="main">
+            <div id="survey-div">
+                <form id="survey-form" method="post">
+                    <label id="name-label" for="name">Name:</label>
+                    <br>
+                    <input id="name"
+                           type="text"
+                           name="name"
+                           placeholder="John"
+                           required>
+                    <br>
+                    <label id="email-label" for="email">Email:</label>
+                    <br>
+                    <input id="email"
+                           type="email"
+                           name="email"
+                           placeholder="john.simpson@mail.com"
+                           required>
+                    <br>
+                    <label id="number-label" for="number">Age:</label>
+                    <br>
+                    <input id="number"
+                           type="number"
+                           min="0"
+                           max="150"
+                           name="number"
+                           placeholder="35">
+                    <br>
+                    <label id="dropdown-label" for="dropdown">Employment status:</label>
+                    <br>
+                    <select id="dropdown">
+                        <option value="unspecified">Unspecified</option>
+                        <option value="unemployed">Unemployed</option>
+                        <option value="student">Student</option>
+                        <option value="employed">Employed</option>
+                    </select>
+                    <br>
+                    <label id="radiobt-label">Gender:</label>
+                    <br>
+                    <input type="radio"
+                           id="radiobt-unspecified"
+                           name="gender"
+                           value="unspecified"
+                           checked>
+                    <label for="radiobt-unspecified">Unspecified</label>
+                    <br>
+                    <input type="radio"
+                           id="radiobt-male"
+                           name="gender"
+                           value="male">
+                    <label for="radiobt-male">Male</label>
+                    <br>
+                    <input type="radio"
+                           id="radiobt-female"
+                           name="gender"
+                           value="female">
+                    <label for="radiobt-female">Female</label>
+                    <br>
+                    <label id="checkboxes-label">Topics of interest:</label>
+                    <br>
+                    <input type="checkbox"
+                           id="topic1-eng"
+                           name="engineering"
+                           value="engineering">
+                    <label for="topic1-eng">Engineering</label>
+                    <br>
+                    <input type="checkbox"
+                           id="topic2-eco"
+                           name="economics"
+                           value="economics">
+                    <label for="topic2-eco">Economics</label>
+                    <br>
+                    <input type="checkbox"
+                           id="topic3-law"
+                           name="law"
+                           value="law">
+                    <label for="topic3-law">Law</label>
+                    <br>
+                    <input type="checkbox"
+                           id="topic4-med"
+                           name="medicine"
+                           value="medicine">
+                    <label for="topic4-med">Medicine</label>
+                    <br>
+                    <input type="checkbox"
+                           id="topic5-soc"
+                           name="social-sciences"
+                           value="social-sciences">
+                    <label for="topic5-soc">Social sciences</label>
+                    <br>
+                    <label for="feedback">Leave your valuable feedback below</label>
+                    <br>
+                    <textarea id="feedback"
+                              name="user-feedback"
+                              rows="4"
+                              cols="50"
+                              placeholder="I am very pleased to fill this form ..."></textarea>
+                    <br>
+                    <input id="submit"
+                           type="submit"
+                           value="Submit">
+                    <br>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

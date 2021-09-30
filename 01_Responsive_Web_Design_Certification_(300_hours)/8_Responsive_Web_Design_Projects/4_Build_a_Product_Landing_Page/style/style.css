@@ -1,0 +1,92 @@
+body {
+    background: #eee;
+    font-family: Helvetica;
+    margin: auto;
+    max-width: 550pt;
+    display: block;
+    text-align: center;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    padding: 1em;
+    box-shadow: 0 0 8px #888888;
+}
+
+#head-elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#video {
+    width: 100%;
+    height: 300px;
+    border-width: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 5px;
+}
+
+#header-img {
+    padding: 15px;
+}
+
+#stay-connected {
+    margin-top: 200px;
+}
+
+section {
+    text-align: justify;
+}
+
+#t-shirts-block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+p {
+    text-indent: 30px;
+}
+
+.shirt-product {
+    width: 33.3333%;
+}
+
+.shirt-box-class {
+    margin: 10px;
+}
+
+.shirt-product img {
+    background: white;
+    margin: auto;
+    width: 100%;
+    display: block;
+    max-height: 200px;
+    object-fit: scale-down;
+    border-radius: 20px 20px 0 0;
+}
+
+.features {
+    background: #d7d7d7;
+    margin: 0;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+}
+
+li {
+    margin-left: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .shirt-product {width: 100%;}
+}

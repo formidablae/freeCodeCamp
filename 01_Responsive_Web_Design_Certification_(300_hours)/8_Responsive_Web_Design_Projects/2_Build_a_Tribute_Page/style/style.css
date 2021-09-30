@@ -1,0 +1,39 @@
+body {
+    background: #eee;
+    font-family: Helvetica;
+}
+
+#title {
+    text-align: center;
+}
+
+#img-div {
+    text-align: center;
+    background: white;
+    margin: 0 30px;
+    padding: 10px;
+}
+
+#image {
+    margin: auto;
+    max-width: 570px;
+    width: 100%;
+    display: block;
+}
+
+#img-caption {
+    font-style: italic;
+}
+
+#tribute-info {
+}
+
+#tribute-info-textual-content {
+    text-align: justify;
+}
+
+p {
+    padding: 10px 30px;
+    margin: 0;
+    text-indent: 30px;
+}
